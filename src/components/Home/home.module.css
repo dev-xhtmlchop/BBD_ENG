@@ -1,0 +1,63 @@
+.rsconatin p {
+  font-size: 15px;
+}
+.rsconatin h1 {
+  font-size: 45px;
+}
+.py20 {
+  padding-top: 94px;
+  padding-bottom: 129px;
+}
+.sidespce {
+  max-width: 1311px;
+  margin: 0 auto;
+}
+.imgpart{
+  max-width: 602px;
+}
+.rstopspce {
+  padding-top: 67px;
+}
+.rsconatin {
+  max-width: 563px;
+}
+
+.rsdescription {
+  margin-top: 37px;
+  /* padding-right: 76px; */
+}
+@media (max-width: 1126px) {
+  .rsconatin h1 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 992px) {
+  .rsconatin h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 768px) {
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 223px;
+  }
+  .rsconatin p {
+    font-size: 16px;
+  }
+  .rsconatin h1 {
+    font-size: 26px;
+  }
+  .sidespce {
+    padding: 0 18px;
+  }
+  .rsconatin {
+    max-width: 100%;
+  }
+  .rstopspce {
+    padding-top: 43.61px;
+  }
+  .rsdescription {
+    margin-top: 30px;
+    padding-right: 0;
+  }
+}

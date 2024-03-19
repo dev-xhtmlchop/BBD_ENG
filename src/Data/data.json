@@ -1,0 +1,72 @@
+
+{
+  "header":{
+        "rightimg": "navbar_eap.png",
+        "link":"https://bbd-pcportailsante.netlify.app/"
+  },
+    
+    "homepageData":  
+      {
+        "subtitle": "For employees",
+        "title": "A full-service employee assistance program",
+        "description": "Supporting employees and dependents, with counselling, work-life services and learning modules.  "
+      } ,
+    "aboutContain": {
+      "title": "See what we do in action!",
+      "description": "People Connect EAP is BBD’s counselling resource centre to help tackle personal and workplace health.",
+      "btn": "Get Started"
+    },
+    "servicepageData": {
+      "subtitle": "Our 7 core elements",
+      "title": "Manage everyday work, health and life challenges",
+      "description": "BBD offers personalized, virtual well-being support to you and your family members. The service also provides a variety of care options, easy booking and a counsellor matching service to make sure your preferences are prioritized."
+    },
+    "serviceBoxData": [
+      {
+        "img": "firstbox.svg",
+        "title": "Mental health support",
+        "description": "Easy to use EAP, virtual or in your local community, we have registered counsellors and therapists that support short and long-term needs."
+      },
+      {
+        "img": "second.svg",
+        "title": "Work, health and life services",
+        "description": "Personalized, short-term support to assist with day-to- day work-life challenges such as health coaching, financial services, mental health support, and more."
+      },
+      {
+        "img": "third.svg",
+        "title": "Resource blog",
+        "description": "Articles and podcasts, videos on mental health topics."
+      },
+      {
+        "img": "fourthbox.svg",
+        "title": "iCBT Self-Help Learning",
+        "description": "Online multi-week learning modules, based on Cognitive Behavioural Therapy to help us drive our own behaviour change. Work independently and improve your wellbeing."
+      },
+      {
+        "img": "fivebox.svg",
+        "title": "Self-Assessment Tool",
+        "description": "Proprietary Diagnostic and Statistical Manual (DSM) based mental health self-assessment tool."
+      },
+      {
+        "img": "sixbox.svg",
+        "title": "People connect continued therapy",
+        "description": "Seamlessly transition to longer term care with your therapist. Support may continue through the paramedical practitioner category of your benefits plan."
+      },
+      {
+        "img": "sevenbox.svg",
+        "title": "Psychiatric collaboration",
+        "description": "Virtual psychiatric collaboration for cases requiring additional support."
+      }
+    ],
+    "TestimonialData": {
+      "contain": "Today’s world and modern life are increasingly filled with uncertainty, complicated relationships, and frequent change. Employers need assistance creating mentally healthy workplaces and employees need easy access to help for mental concerns. Employees do not need to suffer in silence: feeling empty, withdrawn, and unsettled without sufficient support and help.",
+      "written": "- ARASH ZOHOOR MD CCFP",
+      "shapeimg": "testimonialShape.png"
+    },
+    "support":{
+      "title": "Get the support you need with BBD!",
+      "subtitle": "Find the right support with BBD.",
+      "btn":"Get Started"
+    }
+  }
+  

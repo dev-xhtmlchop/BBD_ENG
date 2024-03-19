@@ -1,0 +1,22 @@
+.pySpace {
+  padding: 54px 0;
+}
+.backgroundclr {
+  background-color: #fbf4e4;
+}
+.mainBox {
+  max-width: 889px;
+  margin: 0 auto;
+}
+.warningboxbg {
+  background-color: #2e3c51;
+}
+@media (max-width: 768px) {
+  .pySpace {
+    padding: 40px 0;
+  }
+  .mainBox {
+    max-width: auto;
+    margin: 0 auto;
+  }
+}

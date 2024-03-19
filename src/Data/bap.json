@@ -1,0 +1,78 @@
+{
+  "header":{
+    "rightimg": "navbar_bap.png",
+    "link":"https://bbd-pcportailsante.netlify.app/pap/"
+},
+    "homepageData": [
+      {
+        "subtitle": "For business owners and employees",
+        "title": "Medical and health support for employees with added support for busy business owners",
+        "description": "Supporting employees with Medical Second Opinion, Cancer Care, Health Navigation and access to affordable mental health therapy. The assistance program also provides business owners with legal, financial, and people support."
+      }
+    ],
+    "servicepageData": {
+      "subtitle": "Our 7 core elements",
+      "title": "Manage everyday health and challenges" 
+    },
+    "serviceBoxData": [
+      {
+        "title": "Access to mental health support",
+        "description": "Use our assessment tool to help identify areas of concern and use our platform to find affordable therapists. Your first session is at no cost."
+      },
+      {
+        "title": "Second opinion services",
+        "description": "Providing medical second opinions we include a full assessment and written report to every user. Work with a specialist to review your diagnosis and treatment options."
+      },
+      {
+        "title": "Cancer assistance & health navigation",
+        "description": "Oncology nurses provide cancer support and nurse case management for health coaching, education and all other health conditions. Navigation from diagnosis, treatment, and ongoing care."
+      }
+    ],
+    "businessowners": [
+      {
+        "title": "Legal advisory",
+        "description": "The legal advisory service connects business owners to highly qualified attorneys. Consultations are typically 30 minutes in length and include common corporate law, labour employment law, real estate and family law questions."
+      },
+      {
+        "title": "People support",
+        "description": "Telephone consultations for a wide range of challenging people issues, including performance management, absenteeism, conflict, difficult behaviour, and return-to-work strategies."
+      },
+      {
+        "title": "Financial Support",
+        "description": "Business owners can obtain answers and recommendations to solve business challenges, make informed decisions, understand tax implications, and better manage company finances."
+      }
+    ],
+    "servicesbbd": [
+      { "content": "Cancer care" },
+      { "content": "Second opinion services" },
+      { "content": "Health  navigation" },
+      { "content": "Mental health support" }
+    ],
+    "guidedata": [
+      {
+        "number": 1,
+        "contain": " Fill out the registration form ",
+        "img": "guidecard1.png"
+      },
+      {
+        "number": 2,
+        "contain": " Fill out the registration form ",
+        "img": "guidecard2.png"
+      },
+      {
+        "number": 3,
+        "contain": " Fill out the registration form ",
+        "img": "guidecard3.png"
+      }
+    ],
+    "TestimonialData": {
+      "conatin": "I got support for managing complications with staff in my small business. Which was great! Then I was able to refer my employee for counselling and cancer information. I loved it and felt good about helping!",
+      "written": "- Arun S.",
+      "shapeimg": "BaptestimonialShape.png"
+    },
+    "support":{
+      "title": "Get the support you need with BBD!",
+      "subtitle": "Sign up today to get started",
+      "btn":"Get Started"
+    }
+  }

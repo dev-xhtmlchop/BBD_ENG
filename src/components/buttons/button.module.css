@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 8px 40px;
+  color: #414042;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: #f4b630;
+}
+.btn:hover{
+  background-color: #dfa11b;
+  transition: all .5s;
+}
+@media (max-width: 768px) {
+  .btn {
+    display: inline-block;
+    padding: 11px 61px;
+    color: #414042;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #f4b630;
+  }
+}

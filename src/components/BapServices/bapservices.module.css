@@ -1,0 +1,32 @@
+.bgservice {
+  background-color: #f4b630;
+}
+.pySpace {
+  padding: 93px 0;
+}
+.headingwidth {
+  max-width: 747px;
+  margin: 0 auto;
+}
+.mainboxsize {
+  padding-top: 76px;
+  max-width: 1057px;
+  margin: 0 auto;
+}
+.mt_75 {
+  margin-top: 70px;
+}
+@media (max-width: 768px) {
+.headingwidth h2{
+  font-size: 27px;
+}
+.mt_75{
+  margin-top: 45px;
+}
+.mt_75 p{
+  font-size: 16px;
+}
+.mt_75 p span{
+  font-size: 16px;
+}
+}

@@ -1,0 +1,82 @@
+.pySpace {
+  padding-top: 115px;
+  padding-bottom: 278px;
+}
+.conatinBox {
+  max-width: 786px;
+}
+.pxSpace {
+  padding: 0 95px;
+}
+ 
+.pxSpace p{
+  font-weight: 600;
+  font-size: 23px;
+}
+.flower {
+  bottom: 45%;
+  right: 14%;
+}
+.leftquotes {
+  position: absolute;
+  top: -10%;
+  left: 0;
+}
+.rightquotes {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.leftquotes_img {
+  width: 55px;
+}
+.rightquotes_img {
+  width: 55px;
+}
+@media (max-width: 1200px) {
+  .conatinBox {
+    max-width: 786px;
+    margin: 0 auto;
+  }
+  .pxSpace p{
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .pySpace {
+    padding-top: 115px;
+    padding-bottom: 150px;
+  }
+  .conatinBox {
+    max-width: 786px;
+    margin: 0 auto;
+    /* padding-top: 31px; */
+
+  }
+  
+  .pxSpace p{
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .pxSpace {
+    padding: 0 30px;
+  }
+  .leftquotes {
+    position: absolute;
+    top: -10%;
+    left: 0;
+  }
+  .leftquotes_img {
+    width: 20px;
+  }
+  .rightquotes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .rightquotes_img {
+    width: 20px;
+  }
+}
