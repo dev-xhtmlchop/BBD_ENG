@@ -10,14 +10,14 @@ function About({aboutContain,btn}) {
       <div className="container about">
         <div className={style.mainboxwidth}>
           <Row className="align-items-lg-end align-items-center g-xl-0 gap-5 gap-lg-0  justify-content-between     ">
-            <Col lg={4}>
+            <Col lg={4} className={style.leftcontain}>
               <div
                 className={` text-white text-center text-lg-start  mx-auto   ms-md-0 ${style.leftcontain}`}
               >
                 <div>
                 <StaticImage
                     src="../../images/yellow_butterfly.svg"
-                    alt="Buterfly_yellow"
+                    alt="aboutpage yellow buterfly "
                   />
                 </div>
                 <h2 className={` me-xl-4 fs_34  mb-0 ${style.mtheading}`}>
@@ -31,7 +31,7 @@ function About({aboutContain,btn}) {
                 </div>
               </div>
             </Col>
-            <Col lg={8}  >
+            <Col lg={8}  className={style.videopart}>
             
               <VideoPlayer />
               

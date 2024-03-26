@@ -18,11 +18,8 @@ const IndexPage = () => {
   const { header ,homepageData, aboutContain, servicepageData, serviceBoxData, TestimonialData } = data;
 
   return (
-    <Layout
-      pageTitle="BBD-EAP-Gatsby Bootstrap"
-      pageDescription="Welcome to our Gatsby site with Bootstrap integration"
-    >
-    <Header img={header.rightimg} link={header.link}  />
+    <Layout pageTitle="BBD-EAP-Gatsby Bootstrap" >
+    <Header img={header.rightimg} link={header.link} logoalt={header.alt}  />
 
       <Home
         orderf="order-last"
@@ -31,6 +28,9 @@ const IndexPage = () => {
         shapeimg={eaphomeshape}
         homepageData={homepageData}
         meauto="ms-auto"
+        imgpart={true}
+        eap_contain={true}
+         
       />
       <About aboutContain={aboutContain}/>
       <Service
@@ -57,13 +57,16 @@ const IndexPage = () => {
         shapeimg={require(`../images/${TestimonialData.shapeimg}`).default   }
       />
       <Support
-        leftpng="d-none d-lg-block"
+      // rightpng=" d-block"
+      buuterflyleft="d-none"
+
+        leftpng=" d-lg-block"
         supportbg="bg_brown"
         title="Get the support you need with BBD!!"
         btn="Get Started"
         subcontain="Find the right support with BBD."
       />
-      <FooterComponent boderclr="border-dark"  bgcolor="bg_brown" /> 
+      <FooterComponent boderclr="border_dark"  bgcolor="bg_brown" /> 
     </Layout>
   )
 }

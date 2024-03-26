@@ -1,6 +1,6 @@
 .pySpace {
-  padding-top: 114px;
-  padding-bottom: 97px;
+  padding-top: 151px;
+  padding-bottom: 125px;
 }
 
 .butterflyright {
@@ -8,7 +8,7 @@
   right: 10%;
 }
 .butterflyleft {
-  top: 50%;
+  top: 21%;
   left: 10%;
 }
 
@@ -19,7 +19,13 @@
   font-size: 25px;
 
 }
- 
+.mt_27{
+  margin-top: 27px;
+}
+.buuterflyleft{
+  top: 25%;
+  left: 18%;
+}
 @media (max-width: 768px) {
   .pySpace {
     padding-top: 60px;

@@ -4,12 +4,18 @@
   background: #00000033;
   margin: 0 27px;
 }
+.navbar{
+  transition: padding-top 0.3s ease;
+}
+.pt{
+  padding-top: 43px !important;
+}
 .logosize {
   width: 152px;
   height: auto;
 }
 .logorightsideimg {
-  width: 323px;
+  width: 251px;
   height: auto;
 }
 .dropdown-item:focus,
@@ -28,6 +34,9 @@
 .noticetop{
   max-width: 71%;
   
+}
+.closebtn{
+  width: 24px;
 }
 .noticetop p{
   font-size: 13px;
@@ -59,6 +68,9 @@
   cursor: pointer;
 }
 @media (max-width: 768px) {
+  .pt{
+    padding-top: 0px !important;
+  }
   .shadow_nav{
     box-shadow: 0 0 16px -9px black;
   }
@@ -101,7 +113,7 @@
 @media (max-width: 425px) { 
   .vertical_line {
     height: 100px;
-    margin: 0 5.5px;
+    margin: 0 15.5px;
     width: 1px;
     background-color: #00000033;
   }
@@ -111,8 +123,17 @@
   }
   .vertical {
     width: 1px;
-    height: 95px;
+    height: 45px;
     background: #00000033;
+    margin: 0 19.5px;
+  }
+}
+@media (max-width: 374px) { 
+  .vertical_line {
     margin: 0 5.5px;
+  }
+  .vertical {
+    margin: 0 5.5px; 
+
   }
 }

@@ -1,15 +1,23 @@
-.rsconatin p {
+/* .rsconatin p {
   font-size: 15px;
-}
+} */
 .rsconatin h1 {
   font-size: 45px;
 }
 .py20 {
-  padding-top: 94px;
+  padding-top: 100px;
   padding-bottom: 129px;
 }
-.sidespce {
+.bap_py{
+  padding-top: 90px;
+  padding-bottom: 161px;
+}
+.sidespceeap {
   max-width: 1311px;
+  margin: 0 auto;
+}
+.sidespcebap {
+  max-width: 1347px;
   margin: 0 auto;
 }
 .imgpart{
@@ -21,9 +29,21 @@
 .rsconatin {
   max-width: 563px;
 }
-
+.lscontain{
+  max-width: 546px;
+}
+.lscontain h1{
+  font-size: 44.50px;
+}
+.subtitle{
+  font-size: 18px;
+}
+.eap_contain{
+  margin-top: 67px;
+}
 .rsdescription {
   margin-top: 37px;
+  font-size: 15px;
   /* padding-right: 76px; */
 }
 @media (max-width: 1126px) {
@@ -35,17 +55,32 @@
   .rsconatin h1 {
     font-size: 27px;
   }
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 250px;
+  }
+  .bap_py{
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
 }
 @media (max-width: 768px) {
   .py20 {
     padding-top: 48px;
     padding-bottom: 223px;
   }
+  .bap_py{
+    padding-top: 48px;
+    padding-bottom: 29px;
+  }
   .rsconatin p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .rsconatin h1 {
     font-size: 26px;
+  }
+  .lscontain h1{
+    font-size: 27px;
   }
   .sidespce {
     padding: 0 18px;
@@ -59,5 +94,12 @@
   .rsdescription {
     margin-top: 30px;
     padding-right: 0;
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .py20 {
+    padding-top: 48px;
+    padding-bottom: 135px;
   }
 }

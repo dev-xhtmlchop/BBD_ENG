@@ -43,6 +43,8 @@ p {
 }
 .buisnessboxtitle {
   padding-bottom: 37px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .primaryclr {
   color: #456cba;
@@ -52,7 +54,7 @@ p {
 }
 .border {
   height: 4px;
-  width: 65%;
+  width: 62.5%;
 }
 .serviceBtn {
   margin-top: 51px;
@@ -65,6 +67,9 @@ p {
 }
 .boxsize{
   width: calc(33.33% - 6%);
+}
+.grayshape{
+  filter: grayscale(1);
 }
 @media (max-width: 1200px) {
   .boxsize{
@@ -102,6 +107,6 @@ p {
     width: 100%;
   }
   .servicetitle h4{
-    font-size: 16px;
+    font-size: 21px;
   }
 }

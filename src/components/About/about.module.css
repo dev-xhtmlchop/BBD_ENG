@@ -15,6 +15,9 @@
 .leftcontain {
   max-width: 303px;
 }
+.videopart{
+  max-width: 762px;
+}
 
 .mainboxwidth .mtheading {
   margin-top: 32px;

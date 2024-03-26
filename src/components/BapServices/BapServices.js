@@ -13,7 +13,7 @@ function BapServices({serviceBoxData}) {
       <div className="position-absolute start-0 bottom-0 d-none d-lg-block">
         <StaticImage
           src="../../images/bap_service_butterfly.svg"
-          alt="butterfly"
+          alt=" "
         />
       </div>
       <div className="container">
@@ -26,7 +26,7 @@ function BapServices({serviceBoxData}) {
 
         {/* Start service box */}
         <Row
-          className={` row-gap-3 row-gap-lg-0 ${style.mainboxsize}   text-center`}
+          className={` row-gap-3 justify-content-between row-gap-lg-0 ${style.mainboxsize}   text-center`}
         >
           {serviceBoxData.map((ele, index) => {
             return <ServiceBoxes key={index} index={index} content={ele.content} />
@@ -35,7 +35,7 @@ function BapServices({serviceBoxData}) {
         {/* End service box */}
 
         <div className={` text-center  ${style.mt_75}`}>
-          <p className=" mx-0 mx-lg-5  ">
+          <p className= {`mx-0 mx-lg-5  ${style.service_que}`}>
             Are you a business owner ?{" "}
             <span className="  fw-bold">
               We also offer Legal, Financial and People support for you too!

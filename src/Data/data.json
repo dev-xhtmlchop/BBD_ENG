@@ -2,14 +2,17 @@
 {
   "header":{
         "rightimg": "navbar_eap.png",
-        "link":"https://bbd-pcportailsante.netlify.app/pae/"
+        "link":"https://bbd-pcportailsante.netlify.app/pae/",
+        "alt" : "Benefits By Design and People Connect EAP powered by People Corporation logo"
   },
     
     "homepageData":  
       {
         "subtitle": "For employees",
         "title": "A full-service employee assistance program",
-        "description": "Supporting employees and dependents, with counselling, work-life services and learning modules.  "
+        "description": "Supporting employees and dependents, with counselling, work-life services and learning modules.  ",
+        "alt" : "Manager giving a document to employee sitting at desk. Employee is sitting in front of their computer."
+
       } ,
     "aboutContain": {
       "title": "See what we do in action!",

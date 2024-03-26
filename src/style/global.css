@@ -27,12 +27,15 @@ a{
 }
 a,
 a:hover,
-a:focus,
+/* a:focus, */
 button,
 button:focus { 
   text-decoration: none !important;
   outline: none !important;
   box-shadow: none !important; }
+  a:focus{
+    border: 1.5px solid rgb(0, 0, 0);
+  }
 .container{
     max-width: 1502px !important;
     margin: 0 auto;
@@ -72,15 +75,23 @@ button:focus {
  .text_primary{
   color: #587ABC;
  }
- .border-dark{
-  border-color: #00000066 ;
+ 
+ .border_dark{
+  border-top: 2px solid;
+  border-color: rgba(0, 0, 0, 0.18) !important ;
  }
 .bottomshap{
   bottom: -100px;
 }
+.sticky-top{
+  top: -0.5px !important;
+}
 .cursor-pointer{
   cursor: pointer;
  }
+ .ReactModal__Overlay  {
+  z-index: 99999;
+}
  @media (max-width: 768px) {
   .fs_35{
     font-size: 28px;

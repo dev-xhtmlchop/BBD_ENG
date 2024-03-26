@@ -5,6 +5,8 @@ import Vimeo from "@u-wave/react-vimeo"
 import Modal from "react-modal"
 import playbtn from "../../images/playbtn.png"
 import  btn from '../../images/playbtn.png'
+import closebtn from '../../images/btnclose.png'
+
 
 const VideoPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(true)
@@ -51,7 +53,7 @@ const handleinlinePause = () =>{
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      
+      overflow: "inherit", 
     },
   }
   return (
@@ -78,7 +80,7 @@ const handleinlinePause = () =>{
               <img src={btn} alt="" className="w-100" />
             </div>
             <div className={`${style.bgvideo} overflow-hidden ${bgimg ? "d-block" : "d-none"}`}>
-              <StaticImage src="../../images/placeholder-video.jpg" alt="placeholder-video" />
+              <StaticImage src="../../images/videoframe.png" alt="placeholder-video" />
             </div>
 
             <Vimeo
@@ -101,7 +103,7 @@ const handleinlinePause = () =>{
 <div className="d-none d-lg-block">
 
       <div className={` position-relative  ms-auto ${style.videoframesize} `}>
-      <StaticImage src="../../images/placeholder-video.jpg" alt="placeholder-video" />
+      <StaticImage src="../../images/videoframe.png" alt="placeholder-video" />
       <div className={`${playbtnicon ? "d-block" : "d-none"} ${style.plybuttonStyle}`}>
       <a href="#/" onClick={openModal}>
       <img src={playbtn} alt="playbtn"  className="img-fluid"/> 
@@ -116,6 +118,9 @@ const handleinlinePause = () =>{
         contentLabel="Example Modal"
         
       >
+      <a href="#/" className={style.modalclose_btn} onClick={closeModal}>
+      <img src={closebtn} alt="close" className="img-fluid"  /> 
+      </a>
         <div> 
           <Vimeo
             video={738734767} // Sample video ID

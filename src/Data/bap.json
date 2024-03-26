@@ -1,13 +1,16 @@
 {
   "header":{
     "rightimg": "navbar_bap_eng.png",
-    "link":"https://bbd-pcportailsante.netlify.app/carepath-pap/"
+    "link":"https://bbd-pcportailsante.netlify.app/carepath-pap/",
+    "alt" : "Benefits By Design and People Connect Carepath BAP powered by People Corporation logo"
+
 },
     "homepageData": [
       {
         "subtitle": "For business owners and employees",
         "title": "Medical and health support for employees with added support for busy business owners",
-        "description": "Supporting employees with Medical Second Opinion, Cancer Care, Health Navigation and access to affordable mental health therapy. The assistance program also provides business owners with legal, financial, and people support."
+        "description": "Supporting employees with Medical Second Opinion, Cancer Care, Health Navigation and access to affordable mental health therapy. The assistance program also provides business owners with legal, financial, and people support.",
+        "alt" : "Doctor standing with a medical chart talking to a family."
       }
     ],
     "servicepageData": {
@@ -56,12 +59,12 @@
       },
       {
         "number": 2,
-        "contain": " Fill out the registration form ",
+        "contain": "Verify your account with the code in your email ",
         "img": "guidecard2.png"
       },
       {
         "number": 3,
-        "contain": " Fill out the registration form ",
+        "contain": " Sign in and start accessing great services! ",
         "img": "guidecard3.png"
       }
     ],

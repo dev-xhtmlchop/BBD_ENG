@@ -16,18 +16,19 @@ function Service(props) {
     rowgap,
     subtitle,
     btn,
-    eapboxsize 
+    eapboxsize ,
+    grayshape
   } = props
 
   return (
     <section className="position-relative">
-      <div className="position-absolute start-0 d-none d-lg-block">
-        <StaticImage src="../../images/sevicebgshap1.png" alt="sevicebgshap1" />
+      <div className="position-absolute start-0 d-none d-xl-block">
+        <StaticImage src="../../images/sevicebgshap1.png" alt=" " className= {` ${grayshape ? style.grayshape : ""}`}  />
       </div>
-      <div className="position-absolute end-0 d-none d-lg-block">
-        <StaticImage src="../../images/sevicebgshap2.png" alt="sevicebgshap2" />
+      <div className="position-absolute end-0 d-none d-xl-block">
+        <StaticImage src="../../images/sevicebgshap2.png" alt=" " className= {` ${grayshape ? style.grayshape : ""}`} />
       </div>
-      <div className="container">
+      <div className="container px-3 px-lg-3">
         <div className={`position-relative ${style.services} ${style.py84}`}>
           <div className={`text-center `}>
           <div className={`${style.servicetitle} ${style.servicemxwidth}`}>

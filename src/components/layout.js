@@ -1,14 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+ import favicon from '../images/favicon/favicon.ico'
  
  
- 
-const Layout = ({ children, pageTitle, pageDescription  }) => (
+const Layout = ({ children, pageTitle  }) => (
    
   <React.Fragment>
-    <Helmet>
+     <Helmet htmlAttributes={{ lang: 'en' }}>
+     <link rel="icon" href={favicon} />
       <title>{pageTitle}</title>
-      <meta name="description" content={pageDescription} />
+      <meta name="robots" content="noindex"/>
     </Helmet>
      
     <React.Fragment>

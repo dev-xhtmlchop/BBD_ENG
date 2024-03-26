@@ -12,6 +12,9 @@
 .card_size{
   width: calc(33.33% - 4.6%);
 }
+.mx_contain{
+  max-width: 265px;
+}
 .cardnumber {
   width: 83px;
   height: 83px;
@@ -54,10 +57,10 @@
     padding-top: 63px;
   }
   .cardnumber {
-    width: 45px;
-    height: 45px;
+    width: 70px;
+    height: 70px;
     line-height: 1.4;
-    background-color: #f4b630;
+    background-color: #FFCB05;
     position: absolute;
     top: -10%;
     left: -5%;
@@ -65,9 +68,12 @@
     font-size: 33px;
     color: white;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cardstyle {
-    max-width: 309px;
+    max-width: 303px;
     margin: 0 auto;
   }
   .rowgap {

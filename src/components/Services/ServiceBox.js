@@ -22,7 +22,7 @@ function ServiceBox({
       >
         {divided && (
           <div
-            className={` d-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
+            className={` d-flex align-items-center  justify-content-between  ${style.buisnessboxtitle}`}
           >
             <p className={`fw-bold fs-5 ${style.primaryclr}`}>
               Support for employees
@@ -36,7 +36,7 @@ function ServiceBox({
           boxData.map((ele, index) => {
             
             return (
-              <Col md={4}  lg={lg4} className={ ` p-0 ${
+              <Col md={4}  lg={lg4} className={ ` p-0  mx-xl-0 ms-auto ${
           divided ?  `  ${style.boxsize}`  :  ` ${style.boxsizeeap}`}`}  key={index}>
                 <Card
                   noImage={noImage}
@@ -54,9 +54,9 @@ function ServiceBox({
           className={`row-gap-4 row-gap-md-0  justify-content-between flex-wrap  ${style.servicebuisnessbox}`}
         >
           <div
-            className={` d-flex align-items-center justify-content-between ${style.buisnessboxtitle}`}
+            className={` d-flex align-items-center  justify-content-between  ${style.buisnessboxtitle}`}
           >
-            <p className={`fw-bold fs-5 ${style.primaryclr}`}>
+            <p className={`fw-bold fs-5  ${style.primaryclr}`}>
               Support for business owners
             </p>
             <div
@@ -67,7 +67,7 @@ function ServiceBox({
             businessowners.map((ele, index) => {
               
               return (
-              <Col md={4}  lg={4} className={` ${style.boxsize}    p-0 text-lg-start`}  key={index}>
+              <Col md={4}  lg={4} className={` ${style.boxsize}  mx-xl-0 ms-auto   p-0 text-lg-start`}  key={index}>
                 <Card
                   noImage={noImage}
                   img_width='img_width' 

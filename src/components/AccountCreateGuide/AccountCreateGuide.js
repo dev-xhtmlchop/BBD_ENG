@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap"
 function AccountCreateGuide({guidedata}) {
   return (
     <section className={style.pySpace}>
-      <div className="container">
+      <div className="container px-3 ">
         <Row>
           <Col>
             <div className="text-center">
@@ -25,7 +25,7 @@ function AccountCreateGuide({guidedata}) {
             >
               <div className={style.cardnumber}>{ele.number} </div>
               <div className={style.spaceheading}>
-                <h5 className="fw-bold">{ele.contain}</h5>
+                <h5 className={` fw-semibold mx-auto ${style.mx_contain}`} >{ele.contain}</h5>
               </div>
               <div>
                 <img
@@ -42,7 +42,7 @@ function AccountCreateGuide({guidedata}) {
           
         </Row>
         <div className={` text-center ${style.mt_76} d-none d-lg-block`} >
-          <p>Having trouble signing up? <a href="#/" className="fw-bold text-decoration-underline">Get Support</a> </p>
+          <p className="fs-5">Having trouble signing up? <a href="#/" className="fw-bold text-decoration-underline">Get Support</a> </p>
         </div>
       </div>
     </section>

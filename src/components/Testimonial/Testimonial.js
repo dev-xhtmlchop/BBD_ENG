@@ -2,12 +2,14 @@ import React from "react"
 import { Col, Row } from "react-bootstrap"
 import * as style from "./testimonial.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import rightquote from "../../images/rightquote.svg"
+import leftquotes from "../../images/leftquotes.svg"
 function Testimonial(props) {
   const { written, conatin, background, flowerimg, shapeimg, msauto } = props
   return (
     <section className={` position-relative ${background}`}>
       <div className="position-absolute  bottom-0 w-100">
-        <img className="w-100" src={shapeimg} alt="testimonialShape" />
+        <img className="w-100" src={shapeimg} alt=" " />
       </div>
       <div className={` position-absolute ${flowerimg}  ${style.flower}`}>
         <StaticImage src="../../images/flower.svg" alt="flower" />
@@ -21,22 +23,16 @@ function Testimonial(props) {
               }`}
             >
               <span className={` ${style.leftquotes}`}>
-                <StaticImage
-                  src="../../images/leftquotes.svg"
-                  alt="leftquotes"
-                  className={` ${style.leftquotes_img}`}
-                />
+                
+                <img src={leftquotes} alt="leftquotes" className={` ${style.leftquotes_img}`} />
               </span>
               <span className={` ${style.rightquotes}`}>
-                <StaticImage
-                  src="../../images/rightquote.svg"
-                  alt="rightquotes"
-                  className={` ${style.rightquotes_img}`}
-                />
+               
+                <img src={rightquote} alt="rightquotes" className={` ${style.rightquotes_img}`}/>
               </span>
               <div className={style.pxSpace}>
                 <p> {conatin} </p>
-                <p className="mt-4">{written}</p>
+                <p className="mt-4 fs-6">{written}</p>
               </div>
             </div>
           </Col>

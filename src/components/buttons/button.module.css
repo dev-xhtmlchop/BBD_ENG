@@ -4,10 +4,14 @@
   color: #414042;
   font-weight: 700;
   border-radius: 6px;
-  background-color: #f4b630;
+  font-size: 17px;
+  background-color: #FFCB05;
+}
+.btn:focus{
+  border: 1px solid #000000 !important;
 }
 .btn:hover{
-  background-color: #dfa11b;
+  background-color: #f0c000;
   transition: all .5s;
 }
 @media (max-width: 768px) {
@@ -16,6 +20,7 @@
     padding: 11px 61px;
     color: #414042;
     font-weight: 700;
+    font-size: 19px;
     border-radius: 6px;
     background-color: #f4b630;
   }
