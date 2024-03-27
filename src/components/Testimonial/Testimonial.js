@@ -31,8 +31,8 @@ function Testimonial(props) {
                 <img src={rightquote} alt="rightquotes" className={` ${style.rightquotes_img}`}/>
               </span>
               <div className={style.pxSpace}>
-                <p> {conatin} </p>
-                <p className="mt-4 fs-6">{written}</p>
+                <p className={style.contain}> {conatin} </p>
+                <p className={`mt-4   ${style.content_writer}`}>{written}</p>
               </div>
             </div>
           </Col>

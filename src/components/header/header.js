@@ -39,10 +39,10 @@ const Header = props => {
     {showNotice && (
       <div className={styles.bg_notice} >
       <div className={`   text-center  mx-auto noticetop ${styles.noticetop}`}>
-      <p>The tragic events unfolding in our global community can raise fears and anxiety. If you are impacted in any way by the current events, make an appointment with a virtual counsellor today. To access 2 free hours of counselling, log into your People Connect account and send a message to <a href="mailto:support@pcpeopleconnect.com" className="fw-bold text-decoration-underline">support@pcpeopleconnect.com</a>  or send a message through the live chat function.</p>
+      <p>The tragic events unfolding in our global community can raise fears and anxiety. If you are impacted in any way by the current events, make an appointment with a virtual counsellor today. To access 2 free hours of counselling, log into your People Connect account and send a message to &nbsp; <a href="mailto:support@pcpeopleconnect.com" className="fw-bold text-decoration-underline">support@pcpeopleconnect.com</a>  or send a message through the live chat function.</p>
       
       <button onClick={handleClose} className={`border-0 bg-transparent ${styles.closebtn}`} > 
-      <img src={closebtn} alt="closebtn" className="img-fluid" />
+      <img src={closebtn} alt="close" className="img-fluid" />
       </button>
     </div> 
       </div>
@@ -55,7 +55,7 @@ const Header = props => {
               <img
                 className={styles.logosize}
                 src={logo_english} 
-                alt={props.logoalt}
+                alt=" "
               />
             </div>
           </Navbar.Brand>
@@ -64,14 +64,14 @@ const Header = props => {
             <img
               className={styles.logorightsideimg}
               src={require(`../../images/${props.img}`).default}
-              alt="Benefits By Design and People Connect EAP powered by People Corporation logo"
+              alt={props.logoalt}
             />
           </div>
         </div>
         <div  className="d-flex">
         <div className={ styles.vertical_line} ></div>
      
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className={` ${styles.toogleicon}`} onClick={handleToggle}>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className={` ${styles.pxharmburg} ${styles.toogleicon}`} onClick={handleToggle}>
           { isMenuOpen ? <img src={closebtn} alt="close icon" className={` img-fluid ${styles.closebtn}`}  />: <img src={harmburg} alt="harmburg icon" className=" " />}
          
           </Navbar.Toggle>
@@ -80,7 +80,7 @@ const Header = props => {
           <Nav className="ms-auto">
           <div className=" d-block d-lg-flex justify-content-between my-2 align-items-center   gap-5">
               <div className="d-lg-flex d-block justify-content-between align-items-center  gap-5 "> 
-                <Nav.Link   href="https://bbdeap.pcpeopleconnect.com/signin"    className="fw-bold">
+                <Nav.Link   href="https://bbdcarepath-bap.pcpeopleconnect.com/signin" target="blank"   className="fw-bold">
                   Sign In
                 </Nav.Link>
                 <div className="mt-3 mt-lg-0 d-flex gap-3 align-items-center">
@@ -90,8 +90,8 @@ const Header = props => {
               </div>
               <div className="mt-3  mt-lg-0    d-block">
                 <Nav.Link 
-                   href="https://bbdpae.peoplevousconnecte.com/signup" 
-                  className={` d-inline-block  nav_btn px-5 py-2 rounded-2 fw-bold ${styles.nav_btn_getstart}`}
+                   href="https://bbdcarepath-bap.pcpeopleconnect.com/signup"  target="blank"
+                  className={` d-inline-block  nav_btn px-xl-5 px-4 py-2 rounded-2 fw-bold ${styles.nav_btn_getstart} ${props.eap ? styles.nav_btn_getstart_eap_fs : styles.nav_btn_getstart_bap_fs}`}
                 >
                   Get Started
                 </Nav.Link>

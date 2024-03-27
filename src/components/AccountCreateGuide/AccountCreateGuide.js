@@ -14,14 +14,14 @@ function AccountCreateGuide({guidedata}) {
           </Col>
         </Row>
         <Row
-          className={`${style.cardtopspace} justify-content-between ${style.rowgap} ${style.mainbox}`}
+          className={`row-gap-3 ${style.cardtopspace} justify-content-between gy-5 ${style.rowgap} ${style.mainbox}`}
         >
         {
           guidedata && guidedata.map((ele,index)=>{
             return(
-              <Col lg={4} key={index} className={`${style.card_size} px-lg-0 `}>
+              <Col lg={4} key={index} className={`${style.card_size} border position-relative   rounded-2 px-0 `}>
             <div
-              className={` position-relative border rounded-2 text-center ${style.cardstyle}`}
+              className={`   text-center ${style.cardstyle}`}
             >
               <div className={style.cardnumber}>{ele.number} </div>
               <div className={style.spaceheading}>
@@ -41,7 +41,7 @@ function AccountCreateGuide({guidedata}) {
         }
           
         </Row>
-        <div className={` text-center ${style.mt_76} d-none d-lg-block`} >
+        <div className={` text-center ${style.mt_76}   d-lg-block`} >
           <p className="fs-5">Having trouble signing up? <a href="#/" className="fw-bold text-decoration-underline">Get Support</a> </p>
         </div>
       </div>

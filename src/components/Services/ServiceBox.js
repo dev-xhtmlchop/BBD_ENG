@@ -14,7 +14,7 @@ function ServiceBox({
   return (
     <React.Fragment>
       <Row
-        className={`row-gap-3 ${
+        className={` ${
           rowgap ? "row-gap-md-5" : "row-gap-md-0"
         }   flex-wrap ${
           divided ?  `justify-content-between ${style.servicebuisnessbox}`  :  `justify-content-center ${style.servicesBox}`}
@@ -36,7 +36,7 @@ function ServiceBox({
           boxData.map((ele, index) => {
             
             return (
-              <Col md={4}  lg={lg4} className={ ` p-0  mx-xl-0 ms-auto ${
+              <Col md={4}  lg={lg4} className={ ` p-0  mx-xl-0   ${
           divided ?  `  ${style.boxsize}`  :  ` ${style.boxsizeeap}`}`}  key={index}>
                 <Card
                   noImage={noImage}
@@ -67,7 +67,7 @@ function ServiceBox({
             businessowners.map((ele, index) => {
               
               return (
-              <Col md={4}  lg={4} className={` ${style.boxsize}  mx-xl-0 ms-auto   p-0 text-lg-start`}  key={index}>
+              <Col md={4}  lg={4} className={` ${style.boxsize}  mx-xl-0    p-0 text-lg-start`}  key={index}>
                 <Card
                   noImage={noImage}
                   img_width='img_width' 

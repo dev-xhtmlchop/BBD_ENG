@@ -9,12 +9,12 @@
       {
         "subtitle": "For business owners and employees",
         "title": "Medical and health support for employees with added support for busy business owners",
-        "description": "Supporting employees with Medical Second Opinion, Cancer Care, Health Navigation and access to affordable mental health therapy. The assistance program also provides business owners with legal, financial, and people support.",
+        "description": "Supporting employees with second opinion services, cancer assistance, health navigation and access to affordable mental health support. The assistance program also provides business owners with legal, financial, and people support.",
         "alt" : "Doctor standing with a medical chart talking to a family."
       }
     ],
     "servicepageData": {
-      "subtitle": "Our 7 core elements",
+      "subtitle": "Our 6 core elements",
       "title": "Manage everyday health and challenges" 
     },
     "serviceBoxData": [
@@ -46,7 +46,7 @@
       }
     ],
     "servicesbbd": [
-      { "content": "Cancer care" },
+      { "content": "Cancer assistance" },
       { "content": "Second opinion services" },
       { "content": "Health  navigation" },
       { "content": "Mental health support" }
@@ -74,7 +74,7 @@
       "shapeimg": "BaptestimonialShape.png"
     },
     "support":{
-      "title": "Get the support you need with BBD!",
+      "title": "Get the support you need with BBD",
       "subtitle": "Sign up today to get started",
       "btn":"Get Started"
     }

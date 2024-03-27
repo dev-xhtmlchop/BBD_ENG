@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import * as style from './footer.module.css' 
-function FooterComponent({bgcolor,boderclr}) {
+function FooterComponent({bgcolor,boderclr,fontcolor}) {
   return (
     <section className={`${style.pySpace} border-top ${boderclr}  ${bgcolor}`}>
 
@@ -9,13 +9,13 @@ function FooterComponent({bgcolor,boderclr}) {
     <div className='text-white text-center bg'>
     <Row className={` justify-content-between row-gap-3 ${style.fontsize_footer}`} >
         <Col md={6} xl={5}>
-            <div className='d-md-flex  gap-4'>
-                <a href="https://pcpeopleconnect.com/privacy" className='cursor-pointer text-white d-block d-md-inline-block mb-3 mb-md-0'>PRIVACY POLICY</a>
-                <a href="https://pcpeopleconnect.com/conditions" className='cursor-pointer text-white'>TERMS & CONDITIONS</a>
+            <div className={` d-md-flex  gap_6 `}>
+                <a href="https://pcpeopleconnect.com/privacy" target="blank" className={`${fontcolor ? `${fontcolor} ${style.fs_14 }` :  `text-white ${style.fs_11}` }   cursor-pointer  d-block d-md-inline-block mb-3 mb-md-0`} >PRIVACY POLICY</a>
+                <a href="https://pcpeopleconnect.com/conditions" target="blank" className= {`${fontcolor ? `${fontcolor} ${style.fs_14 }` :  `text-white ${style.fs_11}` } cursor-pointer `} >TERMS & CONDITIONS</a>
             </div>
         </Col>
         <Col md={5} xl={3}>
-            <p>PC People Connect & BBD © 2023-2024</p>
+            <p className={`${fontcolor ? `${fontcolor} ${style.fs_14 }` :  `text-white ${style.fs_11}` }`}>PC People Connect & BBD © 2023-2024</p>
         </Col>
       </Row>
     </div>

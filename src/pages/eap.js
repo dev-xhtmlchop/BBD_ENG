@@ -15,11 +15,11 @@ import Header from "../components/header/header"
 
 const IndexPage = () => {
   
-  const { header ,homepageData, aboutContain, servicepageData, serviceBoxData, TestimonialData } = data;
+  const { header ,homepageData, aboutContain, servicepageData, serviceBoxData, TestimonialData,support } = data;
 
   return (
     <Layout pageTitle="BBD-EAP-Gatsby Bootstrap" >
-    <Header img={header.rightimg} link={header.link} logoalt={header.alt}  />
+    <Header img={header.rightimg} link={header.link} logoalt={header.alt}   eap={true}  />
 
       <Home
         orderf="order-last"
@@ -62,9 +62,9 @@ const IndexPage = () => {
 
         leftpng=" d-lg-block"
         supportbg="bg_brown"
-        title="Get the support you need with BBD!!"
-        btn="Get Started"
-        subcontain="Find the right support with BBD."
+        title={support.title}
+        btn={support.btn}
+        subcontain={support.subtitle}
       />
       <FooterComponent boderclr="border_dark"  bgcolor="bg_brown" /> 
     </Layout>

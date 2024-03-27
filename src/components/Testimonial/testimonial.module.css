@@ -9,13 +9,18 @@
   padding: 0 95px;
 }
  
-.pxSpace p{
-  font-weight: 600;
+.contain{
   font-size: 23px;
+  font-weight: 600;  
+}
+.content_writer{
+  font-size: 19px;
+  font-weight: 600;
 }
 .flower {
-  bottom: 45%;
-  right: 14%;
+  bottom: 35%;
+  right: 10%;
+
 }
 .leftquotes {
   position: absolute;
@@ -36,17 +41,22 @@
 @media (max-width: 1200px) {
   .conatinBox {
     max-width: 786px;
-    margin: 0 auto;
+    margin-right: auto;
   }
   .pxSpace p{
     font-weight: 600;
     font-size: 20px;
   }
 }
+@media (max-width: 1199.98px) {
+  .conatinBox { 
+    margin : 0 auto;
+  }
+}
 @media (max-width: 992px) {
   .pySpace {
     padding-top: 115px;
-    padding-bottom: 200px;
+    padding-bottom: 269px;
   }
 }
 @media (max-width: 768px) {
@@ -70,7 +80,7 @@
   }
   .leftquotes {
     position: absolute;
-    top: -21%;
+    top: -45%;
     left: 0;
   }
   .leftquotes_img {
@@ -84,5 +94,16 @@
   }
   .rightquotes_img {
     width: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .leftquotes {
+    position: absolute;
+    top: -20%;
+    left: 0;
+  }
+  .rightquotes {
+    
+    bottom: -10%;
   }
 }

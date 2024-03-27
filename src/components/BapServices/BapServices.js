@@ -34,16 +34,16 @@ function BapServices({serviceBoxData}) {
         </Row>
         {/* End service box */}
 
-        <div className={` text-center  ${style.mt_75}`}>
+        <div className={` text-center  ${style.business_owner}`}>
           <p className= {`mx-0 mx-lg-5  ${style.service_que}`}>
-            Are you a business owner ?{" "}
+            Are you a business owner?{" "}
             <span className="  fw-bold">
               We also offer Legal, Financial and People support for you too!
             </span>
           </p>
         </div>
 
-        <div className={`text-center ${style.mt_75}`}>
+        <div className={`text-center `}>
           <Button bgwhite="bg-white">Get Started</Button>
         </div>
       </div>

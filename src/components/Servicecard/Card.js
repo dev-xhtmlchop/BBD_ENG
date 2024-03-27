@@ -2,7 +2,7 @@ import React from "react"
 import * as styles from './card.module.css'
 function Card({ img, title, description, noImage ,img_width}) {
   return (
-    <div className={`  ${styles.boxcontain}  ${styles.boximg}`}>
+    <div className={`  ${styles.boxcontain} `}>
       {noImage &&<div>
      <img src={img} alt="boxicon" className={` img-fluid ${img_width}`} />
     </div>}

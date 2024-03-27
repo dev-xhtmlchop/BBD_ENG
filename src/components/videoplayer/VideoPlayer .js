@@ -105,7 +105,7 @@ const handleinlinePause = () =>{
       <div className={` position-relative  ms-auto ${style.videoframesize} `}>
       <StaticImage src="../../images/videoframe.png" alt="placeholder-video" />
       <div className={`${playbtnicon ? "d-block" : "d-none"} ${style.plybuttonStyle}`}>
-      <a href="#/" onClick={openModal}>
+      <a href="#/" className="d-inline-block" onClick={openModal}>
       <img src={playbtn} alt="playbtn"  className="img-fluid"/> 
       </a>
       </div>

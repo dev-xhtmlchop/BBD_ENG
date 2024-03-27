@@ -3,7 +3,7 @@
   "header":{
         "rightimg": "navbar_eap.png",
         "link":"https://bbd-pcportailsante.netlify.app/pae/",
-        "alt" : "Benefits By Design and People Connect EAP powered by People Corporation logo"
+        "alt" : " Benefits By Design and People Connect EAP powered by People Corporation logo"
   },
     
     "homepageData":  
@@ -67,7 +67,7 @@
       "shapeimg": "testimonialShape.png"
     },
     "support":{
-      "title": "Get the support you need with BBD!",
+      "title": "Get the support you need with BBD",
       "subtitle": "Find the right support with BBD.",
       "btn":"Get Started"
     }

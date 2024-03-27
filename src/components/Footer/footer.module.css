@@ -4,9 +4,12 @@
 .footerbg p {
   font-size: 14px;
 }
- .fontsize_footer p,a{
+ 
+ .fs_14{
   font-size: 14px;
-
+ }
+ .fs_11{
+  font-size: 11px;
  }
  .borderdark{
   border-color: rgba(0, 0, 0, 0.18);

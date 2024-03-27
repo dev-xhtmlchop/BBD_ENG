@@ -16,7 +16,7 @@ function Home(props) {
           <div className={`${bap_py ?    style.sidespcebap : style.sidespceeap} `}>
         <div className="container px-3 px-lg-3">
             <Row className=" position-relative justify-content-center justify-content-lg-between align-items-start">
-              <Col   lg={6} className={`  ${imgpart ?  `${style.imgpart}` : ""} ${orderl}`}>
+              <Col   lg={6} className={` ${mt ? 'mt-5' : " "} ${imgpart ?  `${style.imgpart}` : ""} ${orderl}`}>
                 <img className="img-fluid" src={img} alt={homepageData.alt} />
               </Col>
               <Col   lg={6} className={`   ${orderf} ${mt ? "mt-5" : ""} ${bap_py ? "mt-4" : "" } ${eap_contain ? style.eap_contain: ""}`}>

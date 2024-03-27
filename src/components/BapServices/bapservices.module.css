@@ -37,8 +37,24 @@
 .headingwidth h2{
   font-size: 27px;
 }
+.pySpace {
+  padding: 65px 0;
+}
+.box_bapservice{
+  padding: 20.21px 19px;
+}
+.mainboxsize {
+  padding-top: 48px;
+}
 .boxsize{
   width:100%;
+}
+.service_que{
+  font-size: 17px;
+}
+.business_owner{
+  padding-top: 65px;
+  padding-bottom: 48px;
 }
 .mt_75{
   margin-top: 45px;

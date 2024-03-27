@@ -19,12 +19,13 @@ function indexbap() {
       <Header img={data.header.rightimg} link={data.header.link} logoalt={data.header.alt}  /> 
       <Home orderf='order-first' mt={true} lscontain={true} imgpart="true" bap_py={true} orderl='order-last' img={baphomebg} shapeimg={shapeimg} homepageData={data.homepageData[0]} meauto="me-lg-auto"/>
       <BapServices serviceBoxData={data.servicesbbd}/>
-      <Service lefshape="" grayshape={true} subtitle={data.servicepageData.subtitle} btn="Get Started" eapboxsize="boxsize"  lg4='4' rightshape='' title='Manage everyday business health and challenges' noImage={false} businessowners={data.businessowners} description={''} divided={true} serviceBoxData={data.serviceBoxData} />
+      <Service lefshape="" grayshape={true} subtitle={data.servicepageData.subtitle} btn="Get Started" eapboxsize="boxsize"  lg4='4' rightshape='' title={data.servicepageData.title} noImage={false} businessowners={data.businessowners} description={''} divided={true} serviceBoxData={data.serviceBoxData} />
       <AdditionalService/>
       <AccountCreateGuide guidedata={data.guidedata}/>
-      <Testimonial background="bg-lightsky" msauto='ms-auto' conatin={data.TestimonialData.conatin} flowerimg='d-none' shapeimg={shapeimgtestimonial} written={data.TestimonialData.written} />
+      <Testimonial background="bg-gray" msauto='ms-auto' conatin={data.TestimonialData.conatin} flowerimg='d-none' shapeimg={shapeimgtestimonial} written={data.TestimonialData.written} />
       <Support
       // leftpng=" "
+      fontcolor="text-black"
       buuterflyleft="d-none d-lg-block"
         rightpng=" d-block"
         title={data.support.title}
@@ -33,7 +34,7 @@ function indexbap() {
         btn={data.support.btn}
         btnbg="bg-white"
       />
-       <FooterComponent boderclr="border_dark"  bgcolor="bg-yellow" /> 
+       <FooterComponent boderclr="border_dark" fontcolor="text-black"  bgcolor="bg-yellow" /> 
     </Layout>
   );
 }
