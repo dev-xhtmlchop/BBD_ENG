@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap"
 function AccountCreateGuide({guidedata}) {
   return (
     <section className={style.pySpace}>
-      <div className="container px-3 ">
+      <div className="container px-4 px-lg-2 ">
         <Row>
           <Col>
             <div className="text-center">
@@ -14,7 +14,7 @@ function AccountCreateGuide({guidedata}) {
           </Col>
         </Row>
         <Row
-          className={`row-gap-3 ${style.cardtopspace} justify-content-between gy-5 ${style.rowgap} ${style.mainbox}`}
+          className={`  ${style.cardtopspace} justify-content-between gy-5 ${style.rowgap} ${style.mainbox}`}
         >
         {
           guidedata && guidedata.map((ele,index)=>{

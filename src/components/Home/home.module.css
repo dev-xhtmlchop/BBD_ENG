@@ -102,4 +102,8 @@
     padding-top: 48px;
     padding-bottom: 135px;
   }
+  .imgwidth{
+    width: 255px;
+    margin: 0 auto;
+  }
 }

@@ -2,8 +2,9 @@
   "header":{
     "rightimg": "navbar_bap_eng.png",
     "link":"https://bbd-pcportailsante.netlify.app/carepath-pap/",
-    "alt" : "Benefits By Design and People Connect Carepath BAP powered by People Corporation logo"
-
+    "alt" : "Benefits By Design and People Connect Carepath BAP powered by People Corporation logo",
+    "signup" : "https://bbdcarepath-bap.pcpeopleconnect.com/signup",
+    "signin" : "https://bbdcarepath-bap.pcpeopleconnect.com/signin"
 },
     "homepageData": [
       {
@@ -15,7 +16,8 @@
     ],
     "servicepageData": {
       "subtitle": "Our 6 core elements",
-      "title": "Manage everyday health and challenges" 
+      "title": "Manage everyday health and challenges" ,
+      "btnlink" : "https://bbdcarepath-bap.pcpeopleconnect.com/signup"
     },
     "serviceBoxData": [
       {
@@ -46,6 +48,8 @@
       }
     ],
     "servicesbbd": [
+  
+      
       { "content": "Cancer assistance" },
       { "content": "Second opinion services" },
       { "content": "Health  navigation" },
@@ -76,6 +80,8 @@
     "support":{
       "title": "Get the support you need with BBD",
       "subtitle": "Sign up today to get started",
-      "btn":"Get Started"
+      "btn":"Get Started",
+      "btnlink" : "https://bbdcarepath-bap.pcpeopleconnect.com/signup"
+
     }
   }

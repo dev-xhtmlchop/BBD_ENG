@@ -27,10 +27,10 @@ function AdditionalService() {
                 <img src={warninghand} alt=" " />
               </div>
               <div>
-                <h5 className="text-white">
+                <h5  className= {`text-white ${style.warning_title}`}>
                   Critical incident support services
                 </h5>
-                <p className="text-warning mt-4">
+                <p className={` mt-4 ${style.warning_notinclude}`}>
                   Not Included. Fee for service.
                 </p>
               </div>

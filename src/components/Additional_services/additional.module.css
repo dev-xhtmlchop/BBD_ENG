@@ -31,6 +31,13 @@
   top: 7%;
   right: 5%;
 }
+.warning_title{
+  font-size: 21px;
+}
+.warning_notinclude{
+  font-size: 13px;
+  color: #FFCB05;
+}
 @media (max-width: 768px) {
   .pySpace {
     padding: 40px 0;
@@ -45,5 +52,8 @@
   }
   .additional_warningbox{
     width: 100%;
+  }
+  .additional_title{
+    font-size: 27px;
   }
 }

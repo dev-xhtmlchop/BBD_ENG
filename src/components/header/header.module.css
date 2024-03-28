@@ -54,7 +54,7 @@
   border: 1px solid #414042;
   color: #414042;
   transition: all 0.5s;
- 
+  font-weight: 600;
 }
 .nav_btn_getstart_eap_fs {
   font-size: 17px;

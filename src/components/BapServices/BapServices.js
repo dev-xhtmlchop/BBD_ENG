@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import ServiceBoxes from "./ServiceBoxes"
 import { Row } from "react-bootstrap"
 import Button from "../buttons/Button"
-function BapServices({serviceBoxData}) {
+function BapServices({serviceBoxData,btnlink}) {
  
   return (
     <section
@@ -16,11 +16,11 @@ function BapServices({serviceBoxData}) {
           alt=" "
         />
       </div>
-      <div className="container">
+      <div className="container px-4 px-lg-2">
         <div className={style.headingwidth}>
           <div className="text-center">
             
-            <h2>Get access to these services with BBD</h2>
+            <h2 className={style.title_bapservices}>Get access to these services with BBD</h2>
           </div>
         </div>
 
@@ -44,7 +44,7 @@ function BapServices({serviceBoxData}) {
         </div>
 
         <div className={`text-center `}>
-          <Button bgwhite="bg-white">Get Started</Button>
+          <Button btnlink={btnlink} bgwhite="bg-white">Get Started</Button>
         </div>
       </div>
     </section>

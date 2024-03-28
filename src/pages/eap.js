@@ -19,7 +19,7 @@ const IndexPage = () => {
 
   return (
     <Layout pageTitle="BBD-EAP-Gatsby Bootstrap" >
-    <Header img={header.rightimg} link={header.link} logoalt={header.alt}   eap={true}  />
+    <Header img={header.rightimg} link={header.link} signup={header.signup} signin={header.signin} logoalt={header.alt}   eap={true}  />
 
       <Home
         orderf="order-last"
@@ -32,7 +32,7 @@ const IndexPage = () => {
         eap_contain={true}
          
       />
-      <About aboutContain={aboutContain}/>
+      <About aboutContain={aboutContain} btnlink={aboutContain.btnlink}/>
       <Service
         lg4="3"
         subtitle={servicepageData.subtitle}
@@ -42,6 +42,7 @@ const IndexPage = () => {
         noImage={true}
         divided={false}
         eapboxsize="boxsizeeap"
+        btnlink={servicepageData.btnlink}
         serviceBoxData={serviceBoxData.map(item => ({
     ...item,
     img: require(`../images/${item.img}`).default // Dynamic import of images
@@ -59,7 +60,7 @@ const IndexPage = () => {
       <Support
       // rightpng=" d-block"
       buuterflyleft="d-none"
-
+      btnlink={support.btnlink}
         leftpng=" d-lg-block"
         supportbg="bg_brown"
         title={support.title}

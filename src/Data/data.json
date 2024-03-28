@@ -3,8 +3,10 @@
   "header":{
         "rightimg": "navbar_eap.png",
         "link":"https://bbd-pcportailsante.netlify.app/pae/",
-        "alt" : " Benefits By Design and People Connect EAP powered by People Corporation logo"
-  },
+        "alt" : "Benefits By Design and People Connect Carepath BAP powered by People Corporation logo ",
+        "signup" : "https://bbdeap.pcpeopleconnect.com/signup",
+        "signin" : "https://bbdeap.pcpeopleconnect.com/signin"
+  },  
     
     "homepageData":  
       {
@@ -17,12 +19,15 @@
     "aboutContain": {
       "title": "See what we do in action!",
       "description": "People Connect EAP is BBD’s counselling resource centre to help tackle personal and workplace health.",
-      "btn": "Get Started"
+      "btn": "Get Started",
+      "btnlink" : "https://bbdeap.pcpeopleconnect.com/signup"
     },
     "servicepageData": {
       "subtitle": "Our 7 core elements",
       "title": "Manage everyday work, health and life challenges",
-      "description": "BBD offers personalized, virtual well-being support to you and your family members. The service also provides a variety of care options, easy booking and a counsellor matching service to make sure your preferences are prioritized."
+      "description": "BBD offers personalized, virtual well-being support to you and your family members. The service also provides a variety of care options, easy booking and a counsellor matching service to make sure your preferences are prioritized.",
+      "btnlink" : "https://bbdeap.pcpeopleconnect.com/signup"
+
     },
     "serviceBoxData": [
       {
@@ -69,7 +74,9 @@
     "support":{
       "title": "Get the support you need with BBD",
       "subtitle": "Find the right support with BBD.",
-      "btn":"Get Started"
+      "btn":"Get Started",
+      "btnlink" : "https://bbdeap.pcpeopleconnect.com/signup"
+
     }
   }
   

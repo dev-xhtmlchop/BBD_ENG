@@ -7,7 +7,7 @@ import leftbutterfly from "../../images/leftsupportbutterfly.svg"
 import rightbutterfly from "../../images/supportbutterfly.svg"
 function Support(props) {
  
-  const { subcontain, btnbg, supportbg, rightpng, leftpng,buuterflyleft ,title,btn,fontcolor } = props
+  const { subcontain, btnbg, supportbg, rightpng, leftpng,buuterflyleft ,title,btn,fontcolor ,btnlink} = props
   return (
     <section className={`position-relative   ${supportbg} ${style.pySpace}`}>
       <div
@@ -19,22 +19,22 @@ function Support(props) {
         <img src={buuterfly} alt=" " className={``} />
       </div>
       <div
-        className={`  d-lg-none  text-center ${rightpng} ${style.butterflyleft}`}
+        className={`  d-lg-none  text-center ${rightpng} mx-auto mb-4 ${style.butterflyleft}`}
       >
         <img src={leftbutterfly} alt=" " className="img-fluid" />
       </div>
       <div className="container">
-        <Row className="justify-content-center">
-          <Col>
+        
+          <div className={`mx-auto ${style.mx_box}`}>
             <div className={`  text-center ${style.support_contain} text-white position-relative`} >
               <h2 className={` mb-3  fs_35  ${fontcolor}`}>{title}</h2>
               <p className={fontcolor}>{subcontain}</p>
               <div className={style.mt_27}>
-                <Button bgwhite={btnbg}>{btn}</Button>
+                <Button btnlink={btnlink} bgwhite={btnbg}>{btn}</Button>
               </div>
             </div>
-          </Col>
-        </Row>
+          </div>
+        
       </div>
     </section>
   )
